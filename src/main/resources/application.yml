@@ -1,0 +1,16 @@
+server:
+  port: 8580
+
+spring:
+  application:
+    name: admin-dashboard
+  security:
+    user:
+      name: admin
+      password: admin
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
